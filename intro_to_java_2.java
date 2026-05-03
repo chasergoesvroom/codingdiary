@@ -99,7 +99,7 @@ public class intro_to_java_2 {
         
 
         Scanner sc = new Scanner(System.in);  //sc is the variable name it can even be tomato or anything
-        int age2 = sc.nextInt();
+        /* int age2 = sc.nextInt();
         System.out.println(age2);
 
 
@@ -139,7 +139,7 @@ public class intro_to_java_2 {
         // Scanner sc = new Scanner(System.in);
         float f3 = sc.nextFloat();
         float f4 = sc.nextFloat();
-        System.out.println(f3*f4);
+        System.out.println(f3*f4); */
 
 
         
@@ -158,7 +158,47 @@ public class intro_to_java_2 {
         System.out.println("corner = " + corner);
         System.out.println("circle = " + circle);
 
+        
+
         //same goes for float and everything
+
+        // Scanner sc = new Scanner(System.in);
+
+        //You're going to write some code to help you cook a gorgeous lasagna from your favorite cookbook. 
+        // According to your cookbook, the Lasagna should be in the oven for 40 minutes. Given the time (in minutes),
+        //  the lasagna has been in the oven, find how many more minutes the lasagna still needs to bake for.
+
+
+
+        int lasagna = 40;
+        int time = sc.nextInt();
+        int timeleft = lasagna-time;
+        System.out.println(timeleft);
+
+
+        // You'll write some code to help you cook a gorgeous lasagna from your favorite cookbook. Now, you also want to add a few layers to the lasagna. Assume **each layer takes 2 minutes** to prepare. Given the number of layers you want to add to the lasagna, find how many minutes you would spend making them.
+        
+
+        int lasagna2 = 2;
+        int layers = sc.nextInt();
+        int timespent = layers * lasagna2;
+        System.out.println(timespent);
+
+        // You wrote some code to help you cook a gorgeous lasagna from your favorite cookbook. 
+        //Now, you want to find the total number of minutes you've been cooking for the sum of your preparation 
+        // time and the time the lasagna has already spent baking in the oven.
+        //The preparation time of one layer is 2 minutes. Given the number of layers added to the lasagna and the number of minutes the lasagna has been baking in the oven,
+        //find the total elapsed cooking time (prep + bake) in minutes.
+
+        int layersdone = sc.nextInt();
+        int lasagna = sc.nextInt();
+        int total = 2* layersdone + lasagna;
+        System.out.println(total);
+
+
+
+
+
 
 
 
