@@ -96,6 +96,8 @@ public class intro_to_java_2 {
 
         //Taking input from user
 
+        
+
         Scanner sc = new Scanner(System.in);  //sc is the variable name it can even be tomato or anything
         int age2 = sc.nextInt();
         System.out.println(age2);
@@ -113,6 +115,56 @@ public class intro_to_java_2 {
         int n = sc.nextInt();
         int m = sc.nextInt();
         System.out.println(n-m);
+
+        // Scanner sc = new Scanner(System.in);
+        int g = sc.nextInt();
+        int h = sc.nextInt();
+        int j = sc.nextInt();
+        System.out.println(g+h+j);
+
+        // Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        int p = sc.nextInt();
+        int s = sc.nextInt();
+        int avg = r+p+s;
+        System.out.println(avg/3);
+
+        //now lets do float as in makes every number whole in output
+
+        // Scanner sc = new Scanner(System.in);
+        float f1 = sc.nextFloat();
+        float f2 = sc.nextFloat();
+        System.out.println(f1+f2);
+
+        // Scanner sc = new Scanner(System.in);
+        float f3 = sc.nextFloat();
+        float f4 = sc.nextFloat();
+        System.out.println(f3*f4);
+
+
+        
+
+        // how to declare multiple variables in one line
+
+        int rollnumber, classnumber, phonenumber;
+
+        // how to multiple initialize variables in one line
+
+        int ward=13, district=10;
+        float corner=6.753f, circle=7.54f;
+
+        System.out.println("ward = " + ward);
+        System.out.println("district = " + district);
+        System.out.println("corner = " + corner);
+        System.out.println("circle = " + circle);
+
+        //same goes for float and everything
+
+
+
+
+
+
 
 
 
