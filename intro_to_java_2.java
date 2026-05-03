@@ -39,8 +39,8 @@ public class intro_to_java_2 {
         1. any characters from a to z or A to Z can be used
         2. numbers from 0 to 9 can be used
         3. special characters can be only dollar ('$') and underscore ('_')
-        4. can not start with 0 to 9 and dollar ('$')
-        5. can start with underscore ('_')
+        4. can not start with 0 to 9
+        5. can start with underscore ('_') and ('$') (dollar thing is not confirmed its varies)
         6. can not have space between name
         7. can not name already defined names for eg; static, void, println etc
 
@@ -56,6 +56,45 @@ public class intro_to_java_2 {
         static --> invalid */
 
         // int static = 4;
+
+        int $$ = 59;
+
+        System.out.println($$);
+
+
+        //Integer types
+
+        //1. int --> only stores from -2,147,483,648 to +2,147,483,647 
+        //2. long --> stores from -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807
+        //3. shprt -->  stores from -32,768 to +32,767
+        //4. byte --> stores -129 to +127
+
+        int q = 2147483646; //integer is too large so error will happen if you run it
+        long w = 2147483648l; //have to have 'L' after the number if long is used
+        short y = 32767; // only use if you dont wanna store huge numbers or if there's a usercase like that
+        byte o = 125;
+
+        //float types
+
+        float radius = 6.526924276f; //use 'f' after the number other wise it will give error
+        System.out.println(radius); //float only take 7 number after pont other will not be shown when printed
+
+        double radius2 = 6.526924276; //use double to show more number after point co it can show up to 15 unlike float
+        System.out.println(radius2);
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
 
         
 
