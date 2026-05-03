@@ -1,4 +1,4 @@
-
+import java.util.Scanner; // this is important library to add scanner for taking input
 
 public class intro_to_java_2 {
     public static void main(String[] args) {
@@ -66,21 +66,64 @@ public class intro_to_java_2 {
 
         //1. int --> only stores from -2,147,483,648 to +2,147,483,647 
         //2. long --> stores from -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807
-        //3. shprt -->  stores from -32,768 to +32,767
+        //3. short -->  stores from -32,768 to +32,767
         //4. byte --> stores -129 to +127
 
         int q = 2147483646; //integer is too large so error will happen if you run it
         long w = 2147483648l; //have to have 'L' after the number if long is used
-        short y = 32767; // only use if you dont wanna store huge numbers or if there's a usercase like that
+        short y = 32767; // only use if you don't wanna store huge numbers or if there's a use case like that
         byte o = 125;
 
-        //float types
+
+        //Float types
 
         float radius = 6.526924276f; //use 'f' after the number other wise it will give error
         System.out.println(radius); //float only take 7 number after pont other will not be shown when printed
 
         double radius2 = 6.526924276; //use double to show more number after point co it can show up to 15 unlike float
         System.out.println(radius2);
+
+
+        //Boolean
+
+        //boolean can only store 'true' or 'false' nothing else, basically online status or yes or no
+        boolean happy = true;
+        boolean sad = false;
+        System.out.println(happy);
+        System.out.println(sad);
+
+
+
+        //Taking input from user
+
+        Scanner sc = new Scanner(System.in);  //sc is the variable name it can even be tomato or anything
+        int age2 = sc.nextInt();
+        System.out.println(age2);
+
+
+        //Scanner sc = new Scanner(System.in);
+        int k = sc.nextInt();
+        System.out.println(2*k);
+
+        // Scanner sc = new Scanner(System.in);
+        int u = sc.nextInt();
+        System.out.println(u + 10);
+
+        // Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        System.out.println(n-m);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
